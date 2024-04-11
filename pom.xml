@@ -6,7 +6,29 @@
 
     <groupId>io.github.artkonr</groupId>
     <artifactId>colorlog</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+    <description>ASCII formatting for Java strings</description>
+    <packaging>jar</packaging>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <url>https://github.com/artkonr/colorlog</url>
+
+    <scm>
+        <url>https://github.com/artkonr/colorlog.git</url>
+        <connection>scm:git:https://github.com/artkonr/colorlog.git</connection>
+        <tag>v1.0.0</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>artkonr</id>
+            <email>artkonr@gmail.com</email>
+            <name>Artem Kononov</name>
+            <timezone>GMT+03:00</timezone>
+            <roles>
+                <role>Java Engineer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
